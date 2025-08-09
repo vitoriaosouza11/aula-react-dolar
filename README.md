@@ -1,12 +1,38 @@
-# React + Vite
+# Calculadoras React - Conversor de Dólar e Medidas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação web desenvolvida em React utilizando Vite, com o objetivo de fornecer calculadoras simples para conversão de valores monetários (Real para Dólar) e medidas (metros e centímetros).
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Conversão de Real para Dólar:** Informe o valor em reais e a cotação do dólar para obter o valor convertido.
+- **Conversão de Metros para Centímetros:** Informe o valor em metros para obter o equivalente em centímetros.
+- **Conversão de Centímetros para Metros:** Informe o valor em centímetros para obter o equivalente em metros.
+- **Página Sobre:** Informações sobre a autora do projeto.
+- **Página 404:** Página exibida para rotas não encontradas.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router DOM](https://reactrouter.com/)
+
+## Estrutura do Projeto
+
+```
+src/
+  App.jsx
+  main.jsx
+  Titulo.jsx
+  Menu.jsx
+  Banner.jsx
+  Rodape.jsx
+  CalcDollar.jsx
+  CalcMetros.jsx
+  CalcCentimetros.jsx
+  pages/
+    Home.jsx
+    Layout.jsx
+    Sobre.jsx
+```
