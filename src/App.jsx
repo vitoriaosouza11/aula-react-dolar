@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Layout from "./pages/Layout.jsx";
 import Home from "./pages/Home";
+import Centimetros from "./pages/Centimetros";
+import Metros from "./pages/Metros";
 import Sobre from "./pages/Sobre";
 import NoPage from "./pages/NoPage";
 
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="centimetros" element={<Centimetros />} />
+          <Route path="metros" element={<Metros />} />
           <Route path="sobre" element={<Sobre />} />
           <Route path="*" element={<NoPage />} />
         </Route>

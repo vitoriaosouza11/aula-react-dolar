@@ -1,4 +1,4 @@
-import CalcDollar from '../CalcDollar';
+import CalcDollar from '../componentes/CalcDollar';
 
 function Home() {
     return (

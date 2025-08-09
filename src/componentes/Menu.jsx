@@ -22,6 +22,16 @@ function Menu() {
                                 Sobre
                             </a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/centimetros">
+                                Centímetros
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/metros">
+                                Metros
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
